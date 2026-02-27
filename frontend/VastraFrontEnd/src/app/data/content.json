@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Men",
+      "code": "MEN",
+      "description": "Men's Clothing"
+    },
+    {
+      "id": 2,
+      "name": "Women",
+      "code": "WOMEN",
+      "description": "Women's Clothing"
+    },
+    {
+      "id": 3,
+      "name": "Kids",
+      "code": "KIDS",
+      "description": "Kids Clothing"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Black Sweatshirt",
+      "price": 49.99,
+      "categoryId": 2,
+      "url": "https://codedev.b-cdn.net/products/sweatshirt-black.jpg",
+      "description": "Soft cotton black sweatshirt for everyday comfort.",
+      "stockQuantity": 120
+    },
+    {
+      "id": 2,
+      "name": "White T-Shirt",
+      "price": 29.99,
+      "categoryId": 2,
+      "url": "https://codedev.b-cdn.net/products/tshirt-white.jpg",
+      "description": "Classic white t-shirt made with premium fabric.",
+      "stockQuantity": 200
+    },
+    {
+      "id": 3,
+      "name": "Purple Hoodie",
+      "price": 69.99,
+      "categoryId": 2,
+      "url": "https://codedev.b-cdn.net/products/hoodie-purple.jpg",
+      "description": "Warm purple hoodie suitable for casual wear.",
+      "stockQuantity": 80
+    },
+    {
+      "id": 4,
+      "name": "Black T-Shirt",
+      "price": 24.99,
+      "categoryId": 1,
+      "url": "https://codedev.b-cdn.net/products/black-tshirt.jpeg",
+      "description": "Men's black cotton t-shirt with a regular fit.",
+      "stockQuantity": 150
+    },
+    {
+      "id": 5,
+      "name": "Black Hoodie",
+      "price": 59.99,
+      "categoryId": 1,
+      "url": "https://codedev.b-cdn.net/products/black-hoodie.jpeg",
+      "description": "Comfortable black hoodie designed for men.",
+      "stockQuantity": 90
+    },
+    {
+      "id": 6,
+      "name": "Blue Jeans",
+      "price": 49.99,
+      "categoryId": 1,
+      "url": "https://codedev.b-cdn.net/products/blue-jeans.jpg",
+      "description": "Men's blue jeans with a modern slim fit.",
+      "stockQuantity": 110
+    },
+    {
+      "id": 7,
+      "name": "Kids Printed T-Shirt",
+      "price": 19.99,
+      "categoryId": 3,
+      "url": "https://codedev.b-cdn.net/products/kids-tshirt.jpg",
+      "description": "Soft printed t-shirt for kids.",
+      "stockQuantity": 140
+    }
+  ]
+}
