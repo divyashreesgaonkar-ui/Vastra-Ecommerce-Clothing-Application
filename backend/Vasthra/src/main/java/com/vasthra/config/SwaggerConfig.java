@@ -1,0 +1,21 @@
+
+package com.vasthra.config;
+
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Contact;
+import io.swagger.v3.oas.models.info.Info;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SwaggerConfig {
+
+    @Bean
+    public OpenAPI customOpenAPI(){
+        return new OpenAPI()
+                .info(new Info().title("Vasthra1 API's").description("Vasthra1 E-commerce Application APIs")
+                        .version("1.0")
+                        .contact(new Contact()
+                                .name("The Ecommerce")));
+    }
+}
